@@ -39,15 +39,14 @@ public class AnchorHand : MonoBehaviour
 
     private void PlaceAnchor()
     {
-        //place anchor at transform.position
+        SpatialAnchorCreater.Instance.CreateSpatialAnchor(transform.position);
+    }
 
-        if (Keypad.Instance)
+    private void Update()
+    {
+        if (LoadAllProducts.Instance && LoadAllProducts.Instance.GetUnanchoredProductsCount() == 0)
         {
-            Keypad.Instance.Toggle(true);
-        }
-        else if (Keyboard.Instance)
-        {
-            Keyboard.Instance.Toggle(true);
+            Destroy(gameObject);
         }
     }
 }
