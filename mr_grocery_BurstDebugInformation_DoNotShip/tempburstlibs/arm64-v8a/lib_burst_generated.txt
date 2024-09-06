@@ -11,6 +11,15 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --float-mode=Fast
 --assembly-defines=Assembly-CSharp-firstpass;
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=AssistantCoreSDKRuntime;
+--assembly-defines=Meta.Net.endel.nativewebsocket;
+--assembly-defines=Meta.VoiceSDK.Mic.Common;
+--assembly-defines=Meta.VoiceSDK.Mic.Other;
+--assembly-defines=Meta.Wit.Composer;
+--assembly-defines=Meta.WitAi.Conduit;
+--assembly-defines=Meta.WitAi;
+--assembly-defines=Meta.WitAi.Lib;
+--assembly-defines=Meta.WitAi.TTS;
 --assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=Meta.XR.EnvironmentDepth;
@@ -23,6 +32,7 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Newtonsoft.Json;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
+--assembly-defines=Oculus.Interaction.Samples;
 --assembly-defines=Oculus.Platform;
 --assembly-defines=Oculus.VR;
 --assembly-defines=System.Configuration;
@@ -56,6 +66,7 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Unity.XR.OpenXR.Features.OculusQuestSupport;
 --assembly-defines=Unity.XR.OpenXR.Features.RuntimeDebugger;
 --assembly-defines=UnityEngine;
+--assembly-defines=VoiceSDK.Runtime;
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/MR-Grocery/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/AndroidPlayer
@@ -76,6 +87,15 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --target-framework=NetFramework
 --assembly-defines=Assembly-CSharp-firstpass;
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=AssistantCoreSDKRuntime;
+--assembly-defines=Meta.Net.endel.nativewebsocket;
+--assembly-defines=Meta.VoiceSDK.Mic.Common;
+--assembly-defines=Meta.VoiceSDK.Mic.Other;
+--assembly-defines=Meta.Wit.Composer;
+--assembly-defines=Meta.WitAi.Conduit;
+--assembly-defines=Meta.WitAi;
+--assembly-defines=Meta.WitAi.Lib;
+--assembly-defines=Meta.WitAi.TTS;
 --assembly-defines=Meta.XR.Audio;
 --assembly-defines=Meta.XR.BuildingBlocks;
 --assembly-defines=Meta.XR.EnvironmentDepth;
@@ -88,6 +108,7 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Newtonsoft.Json;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
+--assembly-defines=Oculus.Interaction.Samples;
 --assembly-defines=Oculus.Platform;
 --assembly-defines=Oculus.VR;
 --assembly-defines=System.Configuration;
@@ -121,6 +142,7 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Unity.XR.OpenXR.Features.OculusQuestSupport;
 --assembly-defines=Unity.XR.OpenXR.Features.RuntimeDebugger;
 --assembly-defines=UnityEngine;
+--assembly-defines=VoiceSDK.Runtime;
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/MR-Grocery/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/AndroidPlayer
