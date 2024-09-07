@@ -13,6 +13,8 @@ public class SpatialAnchorCreater : MonoBehaviour
     private ProductAnchorUIItem productUIBtn;
     private bool freeze;
 
+    private Transform head;
+
     private void Awake()
     {
         if (Instance)
@@ -23,6 +25,11 @@ public class SpatialAnchorCreater : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        head = Camera.main.transform;
+    }
+
     public void CreateSpatialAnchor(Vector3 position)
     {
         if (freeze)
@@ -31,7 +38,9 @@ public class SpatialAnchorCreater : MonoBehaviour
         }
 
         GameObject go = new();
-        go.transform.position = position;
+        go.transform.SetPositionAndRotation(position,
+            Quaternion.LookRotation((position - new Vector3(head.position.x, position.y, head.position.z)).normalized, Vector3.up));
+
         _ = StartCoroutine(CreateSpatialAnchor(go));
     }
 
@@ -70,12 +79,12 @@ public class SpatialAnchorCreater : MonoBehaviour
             {
                 ES3.Save(product.spatialAnchor, product.id, "id_map.es3");
             }
-            
+
             Destroy(productUIBtn.gameObject);
 
             LoadAllProducts.Instance.Toggle(false);
 
-            GameObject productAnchor = Instantiate(productAnchorPrefab, anchor.transform.position, Quaternion.identity);
+            GameObject productAnchor = Instantiate(productAnchorPrefab, anchor.transform.position, anchor.transform.rotation);
             productAnchor.GetComponent<SpatialAnchorProduct>().Set(product);
         }
         else

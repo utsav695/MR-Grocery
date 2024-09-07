@@ -15,7 +15,6 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Meta.Net.endel.nativewebsocket;
 --assembly-defines=Meta.VoiceSDK.Mic.Common;
 --assembly-defines=Meta.VoiceSDK.Mic.Other;
---assembly-defines=Meta.Wit.Composer;
 --assembly-defines=Meta.WitAi.Conduit;
 --assembly-defines=Meta.WitAi;
 --assembly-defines=Meta.WitAi.Lib;
@@ -32,7 +31,6 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Newtonsoft.Json;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
---assembly-defines=Oculus.Interaction.Samples;
 --assembly-defines=Oculus.Platform;
 --assembly-defines=Oculus.VR;
 --assembly-defines=System.Configuration;
@@ -91,7 +89,6 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Meta.Net.endel.nativewebsocket;
 --assembly-defines=Meta.VoiceSDK.Mic.Common;
 --assembly-defines=Meta.VoiceSDK.Mic.Other;
---assembly-defines=Meta.Wit.Composer;
 --assembly-defines=Meta.WitAi.Conduit;
 --assembly-defines=Meta.WitAi;
 --assembly-defines=Meta.WitAi.Lib;
@@ -108,7 +105,6 @@ Library: /Users/utsavchaudhary/Project Files/Unity/Personal Unity Project Files/
 --assembly-defines=Newtonsoft.Json;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
---assembly-defines=Oculus.Interaction.Samples;
 --assembly-defines=Oculus.Platform;
 --assembly-defines=Oculus.VR;
 --assembly-defines=System.Configuration;
